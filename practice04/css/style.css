@@ -9,10 +9,17 @@ colors:
    #1D3C41
 */
 
+/* Global Styles */
+
 body {
 	font-size: 21px;
 	margin: 0;
+	font-family: sans-serif;
 }
+
+/* ==============
+ Typography 
+ =============  */
 
 h1 {
 	font-size: 48px;
@@ -26,57 +33,42 @@ h3 {
 	font-size: 28px;
 }
 
+/* ==============
+ Layout
+ =============  */
+
 header {
 	background-color: #588C94;
 	color: #fff;
 	text-align: center;
-	font-family: sans-serif;
-	padding: 50px;
-	margin: 50px 25px;
+	padding: 30px 0;
 }
 
 .intro {
-	/*border: solid red 4px;*/
-	width: 650px;
-	margin: 0 auto;
+	width: 500px;
+	margin: 100px auto;
 	text-align: center;
-	padding: 0;
 }
 
 .intro-heading {
-	color: gray;
-	margin-top: 0px;
+	color: gray;	
 }
 
 .intro-text {
 	color: #555;
-	margin: 0 20px;
-
 }
 
-footer {
+.my-skills {
 	background-color: #1D3C41;
 	color: #fff;
-	margin: 50px 25px;
+	padding: 75px 0;
+	text-align: center;
 }
 
 .columns {
 	display: flex;
-	width: 850px;
-	margin: 0 auto;
-	padding: 25px 25px 50px 25px;
-	text-align: center;
 }
 
 .column {
-	/*border: solid red 2px;*/
-	margin: 0 5px;
-}
-
-.column-heading {
-	margin: 0;
-}
-
-.column-paragraph {
-	margin: 15px 5px 0 5px;
+	margin: 0 10px;
 }
